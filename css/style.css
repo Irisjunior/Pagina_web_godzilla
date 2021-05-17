@@ -1,42 +1,75 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body{
-    background-image:url(https://images.alphacoders.com/550/550618.jpg);
+   background-color: black;
     
 
 }
-
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 header{
-    margin-top: 100px;
+    color: aliceblue;
+    width: 100%;
+    height: 80px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+a{
+    padding: .5rem;
+}
+.galeria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h1{
-    font-size: 200px;
+    
     font-family: Arial;
-    color:rgb(65, 26, 26);
-    margin-left: 450px;
+    color:white;
+    
 }
 
 h2{
-    font-size: 50px;
-    color: seashell;
-    margin-left: 50px;
+    padding: 1rem;
 }
+
 
 p{
-    color: seashell;
-    margin-left: 200px;
-    margin-right: 200px;
-    font-size: 17px;
+    color:white;
+    padding: 2rem;
+    font-size: 16px;
 }
 
+#frame{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .img_padrao {
-    margin-bottom: 20px;
+    padding: 2rem;
     width: 450px;
-    margin-left: 350px;
-    margin-top: 50px;
+    height: 350px;
+    
+    
 }
 
 footer{
-    margin-bottom: 35px;
+    width: 100%;
+}
+footer img{
+    width: 100%;
+    height: 300px;
 }
 
 
